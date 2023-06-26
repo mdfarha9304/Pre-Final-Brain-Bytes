@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Doubts</title>
+    <link rel="stylesheet" href="doubt.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/responsive.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="main-menu">
+        <div class="logo"></div>
+        <ul class="Navigation-items">
+          <li>
+            <a href="/index.html" id="home">Home</a>
+          </li>
+          <li>
+            <a href="#" id="e-material"
+              >E-Materials <ion-icon name="chevron-down-outline"></ion-icon
+            ></a>
+            <div class="drop_down_menu">
+              <ul>
+                <li><a href="#">E-Notes</a></li>
+                <li><a href="#">Question Bank</a></li>
+                <li><a href="#">Quiz</a></li>
+                <li><a href="#">Tests</a></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="#" id="courses"
+              >Courses <ion-icon name="chevron-down-outline"></ion-icon
+            ></a>
+            <div class="drop_down_menu">
+              <ul>
+                <li><a href="#">Class 9</a></li>
+                <li><a href="#">Class 10</a></li>
+                <li><a href="#">Olympiad</a></li>
+                <li><a href="#">NTSE</a></li>
+              </ul>
+            </div>
+          </li>
+          <li><a href="# " id="blog">Blog</a></li>
+
+          <li><a href="/Doubt Page/doubt.html" id="doubt">Doubts</a></li>
+          <li>
+            <a href="/About Us/About-Us.html" id="about-us">About Us</a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- For hanburger Menu -->
+      <div class="hamburger_menu">
+        <div class="logo_1"></div>
+        <span class="hamburger">
+          <ion-icon name="menu-outline"></ion-icon
+        ></span>
+      </div>
+      <div class="hidden" id="menu-2">
+        <ul class="Navigation-items" id="secondary_nav">
+          <li>
+            <a href="/index.html">Home</a>
+          </li>
+          <li>
+            <a href="#" id="e-material-items"
+              >E-Materials <ion-icon name="chevron-down-outline"></ion-icon
+            ></a>
+            <div id="drop-down-0">
+              <ul>
+                <li><a href="#">E-Notes</a></li>
+                <li><a href="#">Question Bank</a></li>
+                <li><a href="#">Quiz</a></li>
+                <li><a href="#">Tests</a></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="#" id="courses-content"
+              >Courses <ion-icon name="chevron-down-outline"></ion-icon
+            ></a>
+            <div class="drop_down_menu" id="drop-down-1">
+              <ul>
+                <li><a href="#">Class 9</a></li>
+                <li><a href="#">Class 10</a></li>
+                <li><a href="#">Olympiad</a></li>
+                <li><a href="#">NTSE</a></li>
+              </ul>
+            </div>
+          </li>
+
+          <li><a href="#">Blog</a></li>
+
+          <li><a href="/Doubt Page/doubt.html">Doubts</a></li>
+          <li><a href="/About Us/About-Us.html">About Us</a></li>
+         
+        </ul>
+      </div>
+      <button class="btn">Login&nbsp;/&nbsp;Register</button>
+    </nav>
+
+    <!--doubt page-->
+    <div class="doubt-container" id="doubts">
+      <h1 class="doubt-heading">Ask Your Doubt</h1>
+      <form action="#" method="POST">
+        <div class="form-group">
+          <label for="name">Name:</label>
+
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Enter your name"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your email"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="class">Class:</label>
+          <input
+            type="text"
+            id="class"
+            name="class"
+            placeholder="Enter your class "
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="message">Query:</label>
+          <textarea
+            id="message"
+            name="message"
+            placeholder="Enter your doubt here"
+            rows="5"
+            required
+          ></textarea>
+        </div>
+        <button class="doubt-btn" type="submit">Submit</button>
+      </form>
+    </div>
+    <div class="faq-container">
+      <h1 class="doubt-heading">Frequently Asked Questions</h1>
+      <br />
+      <div class="faq">
+        <div class="question">Q: How do I sign up?</div>
+        <div class="answer">
+          A: To sign up, click on the "Sign Up" button and fill out the
+          registration form.
+        </div>
+      </div>
+
+      <div class="faq">
+        <div class="question">Q: What payment methods do you accept?</div>
+        <div class="answer">
+          A: We accept all major credit cards and PayPal.
+        </div>
+      </div>
+
+      <div class="faq">
+        <div class="question">Q: How can I contact customer support?</div>
+        <div class="answer">
+          A: You can reach our customer support team by emailing
+          support@example.com or calling our toll-free number.
+        </div>
+      </div>
+    </div>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script>
+      const questions = document.querySelectorAll('.question');
+
+      questions.forEach((question) => {
+        question.addEventListener('click', () => {
+          question.classList.toggle('active');
+          question.nextElementSibling.classList.toggle('show');
+        });
+      });
+    </script>
+  </body>
+</html>
