@@ -338,11 +338,11 @@ slider {
 .wrapper {
   font-family: 'Montserrat', sans-serif;
   width: 100%;
-  min-height: fit-content; /* 
-  border: 2px solid white ; */
+  /* min-height: fit-content; /*  */
+  border: 2px solid white ; 
   justify-content: center;
   align-items: center;
-  margin: 3rem;
+  margin: 1rem;
   margin-bottom: 2rem;
 }
 .container {
