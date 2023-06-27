@@ -6,93 +6,120 @@
   box-sizing: border-box;
 }
 body {
-  background-color: rgb(15, 15, 15);
+  background-color: #fff;
   color: rgb(255, 199, 0);
   font-family: 'Poppins', sans-serif;
+  max-height: 100vh;
+  max-width: 100%;
+  /* justify-content: center; */
+  /* align-items: center; */
+  font-size: 14px;
+  line-height: 1.85em;
+  color: #ffffff;
+  -webkit-font-smoothing: antialiased;
 }
 /* Nav Bar starts here  */
-.main-menu {
+
+.main {
+  width: 100%;
   display: flex;
-  width: fit-content;
-  align-items: center;
+  align-items: center; /* 
+  justify-content: center; */
+  gap: 5rem;
 }
+
 .navbar {
-  width: 100vw;
+  width: 100%;
   display: flex;
   justify-content: space-between;
+  position: fixed;
   position: fixed;
   padding: 0.6rem;
   align-items: center;
   height: 6.3rem;
-  background-color: rgb(15, 15, 15);
+  background-color: #fff;
   z-index: 1;
   top: 0;
-  box-shadow: 0.3rem 0.3rem 0.5rem rgb(90, 88, 54);
+  font-size: 0.9rem;
+  box-shadow: 0.3rem 0.3rem 0.5rem rgba(0, 0, 0, 0.575);
 }
+
 .logo {
   height: 5rem;
   width: 5rem;
   border-radius: 50%;
-  background-image: url(/About\ Us/images/logo.jpg);
+  background-image: url(/Images/logo.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  border: 1.5px solid rgb(0, 0, 0);
 }
 
-.navbar ul {
+.navbar .Navigation-items {
   display: flex;
   list-style: none;
   width: 65%;
-  gap: 2.5rem;
-  margin-left: 2rem;
+  gap: 2rem;
+  position: relative;
+  right: 3rem;
 }
 #e-material {
+  width: 8rem;
+}
+#about-us {
   width: 7rem;
 }
 .navbar li a {
-  color: rgb(255 199 0);
-
+  color: black;
+  padding: 0 0.7rem;
   text-decoration: none;
   display: flex;
   align-items: center;
+  border-radius: 1.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 .navbar li a:hover {
-  color: rgb(240, 240, 110);
+  background-color: yellow;
 }
 .navbar li a:active,
 .navbar li a:focus {
-  color: rgb(153, 121, 7);
+  text-decoration: underline;
 }
 .drop_down_menu {
   display: none;
 }
 
 .navbar li:hover .drop_down_menu {
-  display: block;
+  display: flex;
+  justify-content: center;
   position: absolute;
-  backdrop-filter: blur(20px);
-  background-color: rgba(0, 0, 0, 0.445);
-  border-bottom-left-radius: 0.5rem;
-  border-bottom-right-radius: 0.5rem;
+  border-radius: 0.5rem;
+  background-color: #fff;
   box-shadow: 0.3rem 0.3rem 0.5rem rgb(36, 35, 35);
+  width: 12rem;
   z-index: 1;
 }
 
 .navbar li:hover .drop_down_menu ul {
-  display: block;
-  justify-content: center;
-  align-items: center;
+  display: flex;
+
+  /* 
+  justify-content: center; */
+  flex-direction: column;
+  align-items: flex-start;
   padding: 1rem;
-  width: 100%;
-  margin-top: 0.5rem;
 }
 .navbar li:hover .drop_down_menu ul li {
-  width: 100%;
+  /* width: 100%; */
+
   margin-bottom: 0.5rem;
 }
 .drop_down_menu ul li a:hover,
 .drop_down_menu ul li a:focus {
   text-decoration: underline;
+}
+.drop_down_menu ul li a {
+  border-radius: 2rem;
+  width: fit-content;
 }
 
 /* Hamburger Menu css  */
@@ -103,22 +130,22 @@ body {
   align-items: center;
 }
 .hamburger {
-  color: rgb(255 199 0);
+  color: black;
   font-size: 2rem;
   margin-left: 3rem;
   height: fit-content;
+  margin-right: 5rem;
 }
 #secondary_nav {
   display: flex;
   flex-direction: column;
-  background-color: rgba(0, 0, 0, 0.514);
-  backdrop-filter: blur(20px);
-  height: 15rem;
+  background-color: #fff;
+  height: 25rem;
   padding: 1.5rem;
   justify-content: center;
   align-items: center;
   position: relative;
-  top: 10rem;
+  top: 8rem;
   left: -95px;
   width: 15rem;
   border-radius: 1rem;
@@ -128,11 +155,8 @@ body {
 #menu-2 {
   z-index: 1;
 }
-#about-us {
-  width: 7rem;
-}
 .logo_1 {
-  background-image: url(/Brain-byte/About\ Us/images/logo.jpg);
+  background-image: url(/Images/brain\ bytes\ logo.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 4rem;
@@ -153,9 +177,10 @@ body {
   flex-direction: column;
   left: 11rem;
   top: 4rem;
+  width: 12rem;
   border-top-right-radius: 0.5rem;
   position: absolute;
-  background-color: rgba(0, 0, 0, 0.541);
+  background-color: #fff;
   backdrop-filter: blur(20px);
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -171,11 +196,11 @@ body {
 .navbar li:hover #drop-down-1 {
   left: 11rem;
   top: 7.5rem;
+  width: 12rem;
   border-top-right-radius: 0.5rem;
   display: block;
   position: absolute;
-  background-color: rgba(0, 0, 0, 0.541);
-  backdrop-filter: blur(20px);
+  background-color: #fff;
   border-bottom-left-radius: 0.5rem;
   border-bottom-right-radius: 0.5rem;
   box-shadow: 0.3rem 0.3rem 0.5rem rgb(36, 35, 35);
@@ -185,25 +210,27 @@ body {
   display: flex;
   flex-direction: column;
 }
-.btn {
+.btn-0 {
   color: black;
-  background-color: rgb(255 199 0);
+  background-color: #fff;
   height: 2.5rem;
-  width: 8rem;
+  width: 10rem;
   font-weight: 600;
-  border: none;
+  border: 2px solid yellow;
   outline: none;
   margin-right: 2rem;
-  border-radius: 0.5rem;
+  border-radius: 2rem;
   padding: 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: 0.2s ease;
+  font-size: 0.8rem;
 }
-.btn:hover {
-  background-color: rgb(250, 250, 94);
+.btn-0:hover {
+  background-color: yellow;
   cursor: pointer;
+  text-decoration: underline;
+  border: none;
 }
 
 /* Search Bar CSS  */
@@ -244,15 +271,16 @@ body {
   font-size: 32px;
   text-align: left;
   margin-bottom: 1.5rem;
-  color: #fff;
-  font-weight: 400;
+  color: black;
+  font-weight: 600;
   font-size: 2rem;
 }
 
 .content p {
   line-height: 1.5;
   margin-bottom: 20px;
-  color: rgb(240, 240, 157);
+  color: rgb(80, 78, 78);
+  font-weight: 500;
 }
 
 a {
@@ -271,22 +299,22 @@ a:focus {
 
 .container {
   width: 100%;
-  margin: 4rem auto;
+  margin: 7rem auto;
   padding: 40px;
-  background-color: rgb(19, 18, 18);
-  color: rgb(255, 199, 0);
+  background-color: #fff;
+  color: Black;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 .picture {
-  width: 50vh;
-  height: 50vh;
+  width: 60vh;
+  height: 60vh;
   background-image: url(https://images.unsplash.com/photo-1504593811423-6dd665756598?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  border-radius: 50%;
+  border-radius: 4rem;
   align-self: center;
 }
 .content-item {
@@ -301,25 +329,13 @@ a:focus {
   justify-content: space-between;
   box-shadow: 0.5rem 0.5rem 0.5rem rgba(51, 48, 48, 0.5);
 }
-.button {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: rgb(255, 199, 0);
-  color: rgb(15, 15, 15);
-  font-weight: bold;
-  text-decoration: none;
-  border-radius: 4px;
-  transition: background-color 0.3s ease;
-}
 
-.button:hover {
-  background-color: rgb(250, 250, 94);
-}
 .heading {
   width: 100%;
   height: fit-content;
   font-size: 3rem;
   text-align: center;
+  color: black;
 }
 /* Slider starts here  */
 
@@ -343,9 +359,10 @@ a:focus {
   flex: 0 0 30%;
   margin: 10px;
   text-align: center;
-  background-color: rgb(43, 42, 42);
+  background-color: #fff;
   border-radius: 5px;
   padding: 20px;
+  box-shadow: 0.3rem 0.3rem 0.5rem rgba(0, 0, 0, 0.719);
 }
 
 .slide-item img {
@@ -355,13 +372,14 @@ a:focus {
 
 .slide-item h3 {
   margin-top: 10px;
-  color: white;
+  color: black;
   font-weight: 400;
 }
 
 .slide-item p {
   margin-top: 10px;
   font-size: 14px;
+  color: black;
 }
 
 .slider-btn {
@@ -371,11 +389,11 @@ a:focus {
   transform: translateY(-50%);
   width: 30px;
   height: 30px;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(68, 68, 68, 0.5);
   color: rgb(255, 199, 0);
   text-align: center;
   line-height: 30px;
-  font-size: 16px;
+  font-size: 32px;
   cursor: pointer;
   transition: background-color 0.3s;
 }
@@ -387,7 +405,6 @@ a:focus {
 .slider-btn.left {
   margin-right: 1rem;
 }
-
 
 .slider-buttons {
   width: 100%;

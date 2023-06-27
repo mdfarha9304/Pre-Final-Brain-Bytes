@@ -1,10 +1,9 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 body {
   /* display: flex; */
@@ -31,11 +30,11 @@ body {
   line-height: 50px;
   background: whitesmoke;
   border-radius: 50%;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.23);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.23);
   transform: translateY(-50%);
   transition: transform 0.1s linear;
 }
-.wrapper i:active{
+.wrapper i:active {
   transform: translateY(-50%) scale(0.85);
 }
 .wrapper i:first-child{
@@ -43,8 +42,9 @@ body {
 }
 .wrapper i:last-child{
   right: -20px;
+
 }
-.wrapper .carousel{
+.wrapper .carousel {
   display: grid;
   grid-auto-flow: column;
   grid-auto-columns: calc((100% / 3) - 12px);
@@ -104,7 +104,7 @@ body {
   margin: 30px 0 5px;
 }
 .carousel .card span {
-  color: #6A6D78;
+  color: #6a6d78;
   font-size: 1.31rem;
 }
 
@@ -120,6 +120,7 @@ body {
   }
 }
 @media screen and (max-width: 1200px) {
+
     .wrapper{
       width: 80%;
       margin: 0 auto;
@@ -142,3 +143,4 @@ body {
       height: fit-content;
     }
 }
+
