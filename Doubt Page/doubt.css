@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Kumbh+Sans:wght@400;700&family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans&family=Overpass:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Kumbh+Sans:wght@400;700&family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans&family=Overpass:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@400;700&display=swap');
 * {
   box-sizing: border-box;
   margin: 0;
@@ -11,25 +11,25 @@ body {
   align-items: center;
   height: 100vh;
   width: 100%;
-  background-color: rgb(15, 15, 15);
+  background-color: #fff;
 }
 .doubt-container {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   width: 500px;
   margin: 10px auto;
   padding: 20px;
-  background-color: rgb(15, 15, 15);
+  background-color: rgb(34, 34, 34);
   border: 1px solid #ccc;
   border-radius: 7%;
   color: #ffc700;
-  box-shadow: 0.3rem 0.3rem 0.5rem rgba(247, 245, 127, 0.267);
+  box-shadow: 0.5rem 0.5rem 0.5rem rgba(37, 37, 37, 0.568);
   margin-top: 10rem;
   margin-bottom: 5rem;
 }
 
 .doubt-heading {
   text-align: center;
-  color: #ffc700;
+  color: #fff;
 }
 
 .form-group {
@@ -52,26 +52,27 @@ textarea {
 }
 
 .doubt-btn {
-  background-color: #ffc700;
-  color: white;
-  box-shadow: 5px 5px 7px 0px #0000003f;
+  background-color: #fff;
+  color: black;
+  border: 2px solid yellow;
   font-size: 18px;
   cursor: pointer;
-  transition: all 0.5s;
   font-weight: 500;
-  border: solid 2px transparent;
   position: relative;
-  z-index: 1;
+  z-index: inherit;
   border-radius: 20px;
   margin: 20px auto;
   display: block;
   width: 40%;
   padding: 10px;
-  border: none;
   font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
-.doubt-btn::before {
-  content: "";
+/* .doubt-btn::before {
+  content: '';
   position: absolute;
   background-color: #fff;
   top: 0px;
@@ -82,17 +83,18 @@ textarea {
   transform: scaleX(0);
   transform-origin: left;
   transition: all 0.8s;
-}
+} */
 
 .doubt-btn:hover {
-  border: solid 3px #ffc700;
+  text-decoration: underline;
+  background-color: yellow;
   color: black;
 }
 
-body {
+/* body {
   background-color: #ffc700;
   color: black;
-}
+} */
 .faq-container {
   display: flex;
   flex-direction: column;
@@ -100,9 +102,13 @@ body {
   align-items: center;
   margin: 10%;
 }
+.doubt-heading-0 {
+  color: black;
+  font-size: 2rem;
+}
 .faq {
   margin-bottom: 20px;
-  background-color: black;
+  background-color: rgb(34, 34, 34);
   color: #ffc700;
   padding: 10px;
   width: 80%;
@@ -118,7 +124,7 @@ body {
 }
 
 .question::after {
-  content: "\25BC";
+  content: '\25BC';
   margin-left: 5px;
   transition: transform 0.2s;
 }

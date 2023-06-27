@@ -8,10 +8,16 @@
     <link rel="stylesheet" href="doubt.css" />
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="/css/responsive.css" />
+    <link rel="stylesheet" href="/css/footer.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
   </head>
   <body>
     <nav class="navbar">
-      <div class="main-menu">
+      <div class="main">
         <div class="logo"></div>
         <ul class="Navigation-items">
           <li>
@@ -44,7 +50,6 @@
             </div>
           </li>
           <li><a href="# " id="blog">Blog</a></li>
-
           <li><a href="/Doubt Page/doubt.html" id="doubt">Doubts</a></li>
           <li>
             <a href="/About Us/About-Us.html" id="about-us">About Us</a>
@@ -92,13 +97,16 @@
           </li>
 
           <li><a href="#">Blog</a></li>
-
           <li><a href="/Doubt Page/doubt.html">Doubts</a></li>
           <li><a href="/About Us/About-Us.html">About Us</a></li>
-         
         </ul>
       </div>
-      <button class="btn">Login&nbsp;/&nbsp;Register</button>
+      <!--search bar 
+     <div class="searching">
+      <input type="text" placeholder="Search.." class="search-bar" />
+      <button><ion-icon name="search-outline"></ion-icon></button>
+    </div> -->
+      <button class="btn-0">Login&nbsp;/&nbsp;Register</button>
     </nav>
 
     <!--doubt page-->
@@ -150,7 +158,7 @@
       </form>
     </div>
     <div class="faq-container">
-      <h1 class="doubt-heading">Frequently Asked Questions</h1>
+      <h1 class="doubt-heading-0">Frequently Asked Questions</h1>
       <br />
       <div class="faq">
         <div class="question">Q: How do I sign up?</div>
@@ -175,6 +183,64 @@
         </div>
       </div>
     </div>
+    <!-- Footer section -->
+    <footer class="footer">
+      <div class="container-0">
+        <div class="row-0">
+          <div class="footer-col" style="width: 45%">
+            <img
+              src="/Images/brain bytes logo.jpg"
+              alt=""
+              height="110px"
+              width="110px"
+              style="border-radius: 60px"
+            />
+
+            <ul style="padding-top: 30px">
+              <!-- <li><img src="" alt="">about us</li> -->
+              <li>
+                <img src="/Images/location.png" alt="" /> &nbsp;Lucknow,226021
+              </li>
+              <li>
+                <img src="/Images/phone.png" alt="" /> &nbsp;+91-1234-567-890
+              </li>
+              <li>
+                <img src="/Images/mail.png" alt="" />&nbsp;
+                &nbsp;edu.brainbytes@gmail.com
+              </li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>COMPANY</h4>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Blogs</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Help and Support</h4>
+            <ul>
+              <li><a href="#">User Guidelines</a></li>
+              <li><a href="#">Feedback</a></li>
+              <li><a href="#">FAQ's</a></li>
+              <li><a href="#"> Terms and conditions</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>follow us</h4>
+            <div class="social-links">
+              <a href=""><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
     <script
       type="module"
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
@@ -191,6 +257,17 @@
           question.classList.toggle('active');
           question.nextElementSibling.classList.toggle('show');
         });
+      });
+
+      const hamburgerNavigation = document.querySelector('.hidden');
+      const hamburgerButton = document.querySelector('.hamburger');
+
+      hamburgerButton.addEventListener('click', () => {
+        if (hamburgerNavigation.className == 'hidden') {
+          hamburgerNavigation.classList.remove('hidden');
+        } else {
+          hamburgerNavigation.classList.add('hidden');
+        }
       });
     </script>
   </body>

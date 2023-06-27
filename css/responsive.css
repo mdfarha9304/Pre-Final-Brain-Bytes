@@ -37,21 +37,22 @@
   .hamburger_menu {
     display: none;
   }
-  #menu-2 {
+  .hidden {
     display: none;
   }
 }
 
-@media (max-width: 720px) {
-  .main-menu {
+@media (max-width: 920px) {
+  .main {
     display: none;
   }
   .hamburger_menu {
     display: flex;
   }
-  .hidden {
+
+  /* .hidden {
     display: none;
-  }
+  } */
   #menu-2 {
     top: -4rem;
     left: 10rem;

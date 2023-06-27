@@ -18,3 +18,15 @@ sliderBtnRight.addEventListener('click', () => {
     sliderContainer.style.transform = `translateX(-${currentSlide * 100}%)`;
   }
 });
+/* nav Bar  */
+
+const hamburgerNavigation = document.querySelector('.hidden');
+const hamburgerButton = document.querySelector('.hamburger');
+
+hamburgerButton.addEventListener('click', () => {
+  if (hamburgerNavigation.className == 'hidden') {
+    hamburgerNavigation.classList.remove('hidden');
+  } else {
+    hamburgerNavigation.classList.add('hidden');
+  }
+});
