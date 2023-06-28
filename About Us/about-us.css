@@ -33,13 +33,13 @@ body {
   display: flex;
   justify-content: space-between;
   position: fixed;
-  position: fixed;
   padding: 0.6rem;
   align-items: center;
   height: 6.3rem;
   background-color: #fff;
   z-index: 1;
   top: 0;
+  font-weight: 600;
   font-size: 0.9rem;
   box-shadow: 0.3rem 0.3rem 0.5rem rgba(0, 0, 0, 0.575);
 }
@@ -414,4 +414,20 @@ a:focus {
   align-items: center;
   align-items: center;
   padding: 2rem;
+}
+
+@media (max-width: 786px) {
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 425px) {
+  .picture {
+    height: 30vh;
+    width: 30vh;
+  }
 }

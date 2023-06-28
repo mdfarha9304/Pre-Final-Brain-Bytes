@@ -1,154 +1,131 @@
-
-
-
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Brain Bytes</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link href="css/style.css" rel="stylesheet" />
-    <link href="css/responsive.css" rel="stylesheet" />
-    <link href="css/bootstrap.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="css/footer.css" />
-    <link rel="stylesheet" href="css/review_new.css" />
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">  -->
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
-    />
-    <!-- <link rel="stylesheet" href="css/materialize.min.css"> -->
-   
-    <link rel="stylesheet" href="css/RecentCourse.css" />
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
-      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
-      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-      crossorigin="anonymous"
-    ></script>
-    <!-- <link
+
+<head>
+  <title>Brain Bytes</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="css/style.css" rel="stylesheet" />
+  <link href="css/responsive.css" rel="stylesheet" />
+  <link href="css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/footer.css" />
+  <link rel="stylesheet" href="css/review_new.css" />
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">  -->
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+  <!-- <link rel="stylesheet" href="css/materialize.min.css"> -->
+
+  <link rel="stylesheet" href="css/RecentCourse.css" />
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <!-- <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     /> -->
-    <script
-      src="https://kit.fontawesome.com/3f16fb12e4.js"
-      crossorigin="anonymous"
-    ></script>
-    <!-- <link
+  <script src="https://kit.fontawesome.com/3f16fb12e4.js" crossorigin="anonymous"></script>
+  <!-- <link
       href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/review.css" /> -->
-  </head>
+</head>
 
-  <body style="background-color: whitesmoke">
-    <nav class="navbar">
-        <div class="main">
-        <div class="logo"></div>
-        <ul class="Navigation-items">
-          <li>
-            <a href="index.html" id="home">Home</a>
-          </li>
-          <li>
-            <a href="#" id="e-material"
-              >E-Materials <ion-icon name="chevron-down-outline"></ion-icon
-            ></a>
-            <div class="drop_down_menu">
-              <ul>
-                <li><a href="#">E-Notes</a></li>
-                <li><a href="#">Question Bank</a></li>
-                <li><a href="#">Quiz</a></li>
-                <li><a href="#">Tests</a></li>
-              </ul>
-            </div>
-          </li>
-          <li>
-            <a href="#" id="courses"
-              >Courses <ion-icon name="chevron-down-outline"></ion-icon
-            ></a>
-            <div class="drop_down_menu">
-              <ul>
-                <li><a href="#">Class 9</a></li>
-                <li><a href="#">Class 10</a></li>
-                <li><a href="#">Olympiad</a></li>
-                <li><a href="#">NTSE</a></li>
-              </ul>
-            </div>
-          </li>
-          <li><a href="# " id="blog">Blog</a></li>
-          <li><a href="Doubt Page/doubt.html" id="doubt">Doubts</a></li>
-          <li>
-            <a href="About Us/About-Us.html" id="about-us">About Us</a>
-          </li>
-        </ul>
+<body style="background-color: whitesmoke">
+  <nav class="navbar">
+    <div class="main">
+      <div class="logo"></div>
+      <ul class="Navigation-items">
+        <li>
+          <a href="index.html" id="home">Home</a>
+        </li>
+        <li>
+          <a href="#" id="e-material">E-Materials <ion-icon name="chevron-down-outline"></ion-icon></a>
+          <div class="drop_down_menu">
+            <ul>
+              <li><a href="#">E-Notes</a></li>
+              <li><a href="#">Question Bank</a></li>
+              <li><a href="#">Quiz</a></li>
+              <li><a href="#">Tests</a></li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <a href="#" id="courses">Courses <ion-icon name="chevron-down-outline"></ion-icon></a>
+          <div class="drop_down_menu">
+            <ul>
+              <li><a href="#">Class 9</a></li>
+              <li><a href="#">Class 10</a></li>
+              <li><a href="#">Olympiad</a></li>
+              <li><a href="#">NTSE</a></li>
+            </ul>
+          </div>
+        </li>
+        <li><a href="# " id="blog">Blog</a></li>
+        <li><a href="Doubt Page/doubt.html" id="doubt">Doubts</a></li>
+        <li>
+          <a href="About Us/About-Us.html" id="about-us">About Us</a>
+        </li>
+      </ul>
     </div>
-   
 
-      <!-- For hanburger Menu -->
-      <div class="hamburger_menu">
-        <div class="logo_1"></div>
-        <span class="hamburger">
-          <ion-icon name="menu-outline"></ion-icon
-        ></span>
-      </div>
-      <div class="hidden" id="menu-2">
-        <ul class="Navigation-items" id="secondary_nav">
-          <li>
-            <a href="index.html">Home</a>
-          </li>
-          <li>
-            <a href="#" id="e-material-items"
-              >E-Materials <ion-icon name="chevron-down-outline"></ion-icon
-            ></a>
-            <div id="drop-down-0">
-              <ul>
-                <li><a href="#">E-Notes</a></li>
-                <li><a href="#">Question Bank</a></li>
-                <li><a href="#">Quiz</a></li>
-                <li><a href="#">Tests</a></li>
-              </ul>
-            </div>
-          </li>
-          <li>
-            <a href="#" id="courses-content"
-              >Courses <ion-icon name="chevron-down-outline"></ion-icon
-            ></a>
-            <div class="drop_down_menu" id="drop-down-1">
-              <ul>
-                <li><a href="#">Class 9</a></li>
-                <li><a href="#">Class 10</a></li>
-                <li><a href="#">Olympiad</a></li>
-                <li><a href="#">NTSE</a></li>
-              </ul>
-            </div>
-          </li>
 
-          <li><a href="#">Blog</a></li>
-          <li><a href="Doubt Page/doubt.html">Doubts</a></li>
-          <li><a href="About Us/About-Us.html">About Us</a></li>
-        </ul>
-      </div>
-      <!--search bar 
+    <!-- For hanburger Menu -->
+    <div class="hamburger_menu">
+      <div class="logo_1"></div>
+      <span class="hamburger">
+        <ion-icon name="menu-outline"></ion-icon></span>
+    </div>
+    <div class="hidden" id="menu-2">
+      <ul class="Navigation-items" id="secondary_nav">
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+        <li>
+          <a href="#" id="e-material-items">E-Materials <ion-icon name="chevron-down-outline"></ion-icon></a>
+          <div id="drop-down-0">
+            <ul>
+              <li><a href="#">E-Notes</a></li>
+              <li><a href="#">Question Bank</a></li>
+              <li><a href="#">Quiz</a></li>
+              <li><a href="#">Tests</a></li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <a href="#" id="courses-content">Courses <ion-icon name="chevron-down-outline"></ion-icon></a>
+          <div class="drop_down_menu" id="drop-down-1">
+            <ul>
+              <li><a href="#">Class 9</a></li>
+              <li><a href="#">Class 10</a></li>
+              <li><a href="#">Olympiad</a></li>
+              <li><a href="#">NTSE</a></li>
+            </ul>
+          </div>
+        </li>
+
+        <li><a href="#">Blog</a></li>
+        <li><a href="Doubt Page/doubt.html">Doubts</a></li>
+        <li><a href="About Us/About-Us.html">About Us</a></li>
+      </ul>
+    </div>
+    <!--search bar 
        <div class="searching">
         <input type="text" placeholder="Search.." class="search-bar" />
         <button><ion-icon name="search-outline"></ion-icon></button>
       </div> -->
-      <button class="btn-0">Login&nbsp;/&nbsp;Register</button>
-    </nav>
-    <!-- Login popup  -->
-    <!--   <div class="center">
+    <button class="btn-0">Login&nbsp;/&nbsp;Register</button>
+  </nav>
+  <!-- Login popup  -->
+  <!--   <div class="center">
       <input type="checkbox" id="show">
       <label for="show" class="show-btn">Login/Sign-Up</label>
       <div class="container">
@@ -173,81 +150,69 @@
       </div>
   </div> -->
 
-    <!-- Slider starts here -->
+  <!-- Slider starts here -->
 
-    <slider>
-      <div class="slider">
-        <div class="slide">
-          <img src="Images/9.png" alt="Image 1" />
-        </div>
-        <div class="slide">
-          <img src="Images/10.png" alt="Image 2" />
-        </div>
-        <div class="slide">
-          <img src="Images/11.png" alt="Image 3" />
-        </div>
-        <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
-        <a class="next" onclick="changeSlide(1)">&#10095;</a>
+  <slider>
+    <div class="slider">
+      <div class="slide">
+        <img src="Images/9.png" alt="Image 1" />
       </div>
-    </slider>
-
-    Landing Page code Starts here 
-    <div class="wrapper" style="    background-color: whitesmoke;">
-      <div class="container">
-        <!--left-part-->
-        <div class="left">
-          <h1>Career Banao Bright With Brain Bytes</h1>
-          <p class="main-content">
-            Brain Bytes is dedicated to providing education of the highest
-            caliber, ensuring that students have access to exceptional learning
-            resources. As an innovative ed tech company, our mission is to
-            provide high quality educational content to students of all ages
-            that includes comprehensive video lectures, interactive quizzes and
-            detailed notes.
-          </p>
-          <button class="btn-start">Get Started</button>
-        </div>
-        <!--right-part-->
-        <div class="right"></div>
+      <div class="slide">
+        <img src="Images/10.png" alt="Image 2" />
       </div>
+      <div class="slide">
+        <img src="Images/11.png" alt="Image 3" />
+      </div>
+      <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+      <a class="next" onclick="changeSlide(1)">&#10095;</a>
     </div>
+  </slider>
 
-   
-    <!-- Notification Section  -->
-    <div class="container-box">
-      <div class="src">
-        <img
-          src="Images/hello-mic gif.gif"
-          alt=""
-          height="90px"
-          width="70px"
-        />
+  Landing Page code Starts here
+  <div class="wrapper" style="    background-color: whitesmoke;">
+    <div class="container">
+      <!--left-part-->
+      <div class="left">
+        <h1>Career Banao Bright With Brain Bytes</h1>
+        <p class="main-content">
+          Brain Bytes is dedicated to providing education of the highest
+          caliber, ensuring that students have access to exceptional learning
+          resources. As an innovative ed tech company, our mission is to
+          provide high quality educational content to students of all ages
+          that includes comprehensive video lectures, interactive quizzes and
+          detailed notes.
+        </p>
+        <button class="btn-start">Get Started</button>
+      </div>
+      <!--right-part-->
+      <div class="right"></div>
+    </div>
+  </div>
 
-        <!-- <h1 style="text-align: center; font-size: 60px; padding-left: 200px">
+
+  <!-- Notification Section  -->
+  <div class="container-box">
+    <div class="src">
+      <img src="Images/hello-mic gif.gif" alt="" height="90px" width="70px" />
+
+      <!-- <h1 style="text-align: center; font-size: 60px; padding-left: 200px">
           Notification
         </h1> -->
-      </div>
     </div>
-    <div class="container-box">
-      <div class="col-lg-12">
-        <div class="row">
-          <div class="col-lg-12 col-md-12">
-            <!--sdfdasfads-->
-            <div
-              class="boxdesign1"
-              style="width: 100%; height: 240px; color: #8b0000"
-            >
-              <div
-                class="marker marker-ribbon marker-primary pos-absolute align_centre"
-                style="margin-top: -26px; top: 2px"
-              >
-                <div class="glow">&nbsp;</div>
-                <h5>Latest @ CBSE @ ICSE @ISC</h5>
-              </div>
+  </div>
+  <div class="container-box">
+    <div class="col-lg-12">
+      <div class="row">
+        <div class="col-lg-12 col-md-12">
+          <!--sdfdasfads-->
+          <div class="boxdesign1" style="width: 100%; height: 240px; color: #8b0000">
+            <div class="marker marker-ribbon marker-primary pos-absolute align_centre"
+              style="margin-top: -26px; top: 2px">
+              <div class="glow">&nbsp;</div>
+              <h5>Latest @ CBSE @ ICSE @ISC</h5>
+            </div>
 
-              <ul
-                class="list"
-                style="
+            <ul class="list" style="
                   color: #4188b4;
                   overflow-y: scroll;
                   height: 205px;
@@ -255,880 +220,624 @@
                   font-size: 90%;
                   font-family: Arial, Helvetica, sans-serif;
                   list-style-type: none;
-                "
-              >
-                <li></li>
+                ">
+              <li></li>
 
-                <li class="list-new">
-                  <a
-                    href="documents//Press_Note_Adolescent_summit_Pune_21062023.pdf"
-                    target="_blank"
-                    tabindex="0"
-                    ><i
-                      style="color: rgb(210, 223, 38)"
-                      class="fa fa-file-pdf-o"
-                    ></i
-                    >CBSE Chairperson Interacts with participants at the
-                    adolescent summit Pune (1.95 MB)
-                  </a>
-                  21/06/2023 <img src="Images/new.gif" alt="" />
-                </li>
-
-                <li class="list-new">
-                  <a
-                    href="documents//Class XII_Date_Sheet_Supplementary_Exam_2023_01062023.pdf"
-                    target="_blank"
-                    tabindex="0"
-                    ><i
-                      style="color: rgb(210, 223, 38)"
-                      class="fa fa-file-pdf-o"
-                    ></i
-                    >Date Sheet for Supplementary Exam 2023 for Class XII (924
-                    KB)
-                  </a>
-                  01/06/2023 <img src="Images/new.gif" alt="" />
-                </li>
-                <li class="list-new">
-                  <a
-                    href="documents//Class X_Date_Sheet_Supplementary_Exam_2023_01062023.pdf"
-                    target="_blank"
-                    tabindex="0"
-                    ><i
-                      style="color: rgb(210, 223, 38)"
-                      class="fa fa-file-pdf-o"
-                    ></i
-                    >Date Sheet for Supplementary Exam 2023 for Class X (1.66
-                    MB)
-                  </a>
-                  01/06/2023 <img src="Images/new.gif" alt="" />
-                </li>
-                <li class="list-new">
-                  <a
-                    href="documents//Online_submission_List_Candidates_Supplementary_Examination_X_XII_Private_Candidate_31052023.pdf"
-                    target="_blank"
-                    tabindex="0"
-                    ><i
-                      style="color: rgb(210, 223, 38)"
-                      class="fa fa-file-pdf-o"
-                    ></i
-                    >Online submission of forms by Private Candidates of Classes
-                    X &amp; XII, 2023 Supplementary Examinations (3.86 MB)
-                  </a>
-                  |
-                  <a
-                    href="https://cbseit.in/cbse/web/comptt/"
-                    target="_blank"
-                    tabindex="0"
-                    >Click here to apply</a
-                  >
-                  31/05/2023
-                </li>
-                <li class="list-new">
-                  <a
-                    href="documents//Online_submission_List_Candidates_Supplementary_Examination_X_XII_30052023.pdf"
-                    target="_blank"
-                    tabindex="0"
-                    ><i
-                      style="color: rgb(210, 223, 38)"
-                      class="fa fa-file-pdf-o"
-                    ></i
-                    >Online submission of List of Candidates by Schools for
-                    Classes X &amp; XII, 2023 Supplementary Examinations (3.95
-                    MB)
-                  </a>
-                  |
-                  <a
-                    href="https://cbseit.in/cbse/web/comptt/schlogin.aspx"
-                    target="_blank"
-                    tabindex="0"
-                    >Click here to apply</a
-                  >
-                  30/05/2023
-                </li>
-
-                <li class="list-new">
-                  <a
-                    href="documents//Permission_Mathematics_041_Class_XI_25052023.pdf"
-                    target="_blank"
-                    tabindex="0"
-                    ><i
-                      style="color: rgb(210, 223, 38)"
-                      class="fa fa-file-pdf-o"
-                    ></i
-                    >Permission to offer Mathematics (041) in Class - XI to the
-                    students who offered Mathematics Basic (241) in Class - X
-                    (475 KB)
-                  </a>
-                  25/05/2023
-                </li>
-                <li class="list-new">
-                  <a
-                    href="documents//Process_verification_Class_X_XII_Examination_2023_Manipur_23052023.pdf"
-                    target="_blank"
-                    tabindex="0"
-                    ><i
-                      style="color: rgb(210, 223, 38)"
-                      class="fa fa-file-pdf-o"
-                    ></i
-                    >Process for Verification, Photocopy and Revaluation of
-                    evaluated answer books for Class X and XII in the State of
-                    Manipur (449 KB)
-                  </a>
-                  23/05/2023
-                </li>
-
-                <li class="list-new">
-                  <a
-                    href="documents//X_verification_photocopy_revaluation_12052023.pdf"
-                    target="_blank"
-                    tabindex="0"
-                    ><i
-                      style="color: rgb(210, 223, 38)"
-                      class="fa fa-file-pdf-o"
-                    ></i
-                    >Circulars for verification of marks, Photocopy of answer
-                    books and reevaluation for Class X - 2023 (1.34 MB)</a
-                  >
-                  |
-                  <a
-                    href="https://cbseit.in/cbse/web/rchk/"
-                    target="_blank"
-                    tabindex="0"
-                    >Click here to apply</a
-                  >
-                  12/05/2023
-                </li>
-                <li class="list-new">
-                  <a
-                    href="documents//XII_verification_photocopy_revaluation_12052023.pdf"
-                    target="_blank"
-                    tabindex="0"
-                    ><i
-                      style="color: rgb(210, 223, 38)"
-                      class="fa fa-file-pdf-o"
-                    ></i
-                    >Circulars for verification of marks, Photocopy of answer
-                    books and reevaluation for Class XII - 2023 (1.33 MB)</a
-                  >
-                  |
-                  <a
-                    href="https://cbseit.in/cbse/web/rchk/"
-                    target="_blank"
-                    tabindex="0"
-                    >Click here to apply</a
-                  >
-                  12/05/2023
-                </li>
-
-                <li class="list-new">
-                  <a
-                    href="documents//full_final_settlement_payment_centre_charges_03052023.pdf"
-                    target="_blank"
-                    tabindex="0"
-                    ><i
-                      style="color: rgb(210, 223, 38)"
-                      class="fa fa-file-pdf-o"
-                    ></i
-                    >Full &amp; Final Settlement of Payment for Centre Charges
-                    for Board's Examination 2022-2023 through integrated Payment
-                    System (IPS) (440 KB)</a
-                  >
-                  03/05/2023
-                </li>
-                <li class="list-new">
-                  <a
-                    href="documents//20230502_CNS_HE_payment_IPS_Term 2_2022_03052023.pdf"
-                    target="_blank"
-                    tabindex="0"
-                    ><i
-                      style="color: rgb(210, 223, 38)"
-                      class="fa fa-file-pdf-o"
-                    ></i
-                    >Payment to CNS / HE / AHE(C) / AHE(E), Evaluators,
-                    Coordinators and all other functionaries involved in Term II
-                    Evaluation work for Examination, 2021-22 (342 KB)</a
-                  >
-                  03/05/2023
-                </li>
-                <li class="list-new">
-                  <a
-                    href="documents//Public_Information_23032023.pdf"
-                    target="_blank"
-                    tabindex="0"
-                    ><i
-                      style="color: rgb(210, 223, 38)"
-                      class="fa fa-file-pdf-o"
-                    ></i
-                    >Public Information : Impact of Public Alerts Issued by CBSE
-                    (1.15 MB)</a
-                  >
-                  23/03/2023
-                </li>
-                <li class="list-new">
-                  <a
-                    href="documents//Public_Alert_27022023.pdf"
-                    target="_blank"
-                    tabindex="0"
-                    ><i
-                      style="color: rgb(210, 223, 38)"
-                      class="fa fa-file-pdf-o"
-                    ></i
-                    >Public Alert : Against rumours and fake information about
-                    ongoing CBSE Exams (250 KB)</a
-                  >
-                  27/02/2023
-                </li>
-                <li class="list-new">
-                  <a
-                    href="documents//Most_Urgent_Public_Notice_21022023_Updated.pdf"
-                    target="_blank"
-                    tabindex="0"
-                    ><i
-                      style="color: rgb(210, 223, 38)"
-                      class="fa fa-file-pdf-o"
-                    ></i
-                    >Most Urgent Public Notice (807 KB)</a
-                  >
-                  22/02/2023
-                </li>
-                <li class="list-new">
-                  <a
-                    href="documents//Press_Release_Digital_India_Award_Gold_2022_11012023.pdf"
-                    target="_blank"
-                    tabindex="0"
-                    ><i
-                      style="color: rgb(210, 223, 38)"
-                      class="fa fa-file-pdf-o"
-                    ></i
-                    >Press Release : CBSE Bags the Digital India Award 2022
-                    (Gold) (402 KB)</a
-                  >
-                  |
-                  <a
-                    href="/Images/DIA_2022_Video.mp4"
-                    target="_blank"
-                    tabindex="0"
-                    >Click here to video</a
-                  >
-                </li>
-                <li class="list-new">
-                  <a
-                    href="https://ciet.nic.in/upload/cyber%20safety%20and%20security.pdf"
-                    target="_blank"
-                    tabindex="0"
-                    ><i
-                      style="color: rgb(210, 223, 38)"
-                      class="fa fa-file-pdf-o"
-                    ></i
-                    >Cyber Safety and Security Guidelines for School (9.44 MB) </a
-                  >10/05/2022
-                </li>
-                <li class="list-new">
-                  <a
-                    href="documents//Press_Release_Use_of_Advanced_data.pdf"
-                    target="_blank"
-                    tabindex="0"
-                    ><i
-                      style="color: rgb(210, 223, 38)"
-                      class="fa fa-file-pdf-o"
-                    ></i
-                    >Press Release - Use of Advanced data analytics to ensure
-                    fairness in CBSE administered examinations (138 KB)</a
-                  >
-                </li>
-                <li class="list-new">
-                  <a
-                    href="documents//Letter_to_Schools_BlockChain_final.pdf"
-                    target="_blank"
-                    tabindex="0"
-                    ><i
-                      style="color: rgb(210, 223, 38)"
-                      class="fa fa-file-pdf-o"
-                    ></i
-                    >Implementation of BlockChain Technology for Board Exam
-                    Results Documents (232 KB)</a
-                  >
-                </li>
-                <li class="list-new">
-                  <a
-                    href="documents//Press_Release_Integrated_Payment_System_IPS.pdf"
-                    target="_blank"
-                    tabindex="0"
-                    ><i
-                      style="color: rgb(210, 223, 38)"
-                      class="fa fa-file-pdf-o"
-                    ></i
-                    >Press Release - CBSE introduces Integrated Payment
-                    System(IPS) (158 KB)</a
-                  >
-                </li>
-                <li class="list-new">
-                  <a
-                    href="documents//Student_Safety_2022.pdf"
-                    target="_blank"
-                    tabindex="0"
-                    ><i
-                      style="color: rgb(210, 223, 38)"
-                      class="fa fa-file-pdf-o"
-                    ></i
-                    >Regarding - Safety of Children in Schools (476 KB) </a
-                  >05/01/2022
-                </li>
-                <li class="list-new">
-                  <a
-                    href="documents//Public_Advisory_03012022.pdf"
-                    target="_blank"
-                    tabindex="0"
-                    ><i
-                      style="color: rgb(210, 223, 38)"
-                      class="fa fa-file-pdf-o"
-                    ></i
-                    >Public Advisory - Misleading information on few online news
-                    Platforms (248 KB) </a
-                  >03/01/2022
-                </li>
-                <li class="list-new">
-                  <a
-                    href="documents/Alert_against_Misleading_Frivolous_information.pdf"
-                    target="_blank"
-                    tabindex="0"
-                    ><i
-                      style="color: rgb(210, 223, 38)"
-                      class="fa fa-file-pdf-o"
-                    ></i
-                    >Alert against Misleading News/Frivolous Information
-                    regarding Affiliation of the Board- Reg (899 KB)</a
-                  >
-                </li>
-                <li class="list-new">
-                  <a
-                    href="documents//public notice10.12.20.pdf"
-                    target="_blank"
-                    tabindex="0"
-                    ><i
-                      style="color: rgb(210, 223, 38)"
-                      class="fa fa-file-pdf-o"
-                    ></i
-                    >Public Notice : Alert Against Frivolous Information (367
-                    KB)</a
-                  >
-                </li>
-                <a
-                  href="documents//public notice10.12.20.pdf"
-                  target="_blank"
-                  tabindex="0"
-                >
+              <li class="list-new">
+                <a href="documents//Press_Note_Adolescent_summit_Pune_21062023.pdf" target="_blank" tabindex="0"><i
+                    style="color: rgb(210, 223, 38)" class="fa fa-file-pdf-o"></i>CBSE Chairperson Interacts with
+                  participants at the
+                  adolescent summit Pune (1.95 MB)
                 </a>
-                <li class="list-new">
-                  <a
-                    href="documents//public notice10.12.20.pdf"
-                    target="_blank"
-                    tabindex="0"
-                  ></a
-                  ><a
-                    href="documents/Public Advisory.pdf"
-                    target="_blank"
-                    tabindex="0"
-                    ><i
-                      style="color: rgb(210, 223, 38)"
-                      class="fa fa-file-pdf-o"
-                    ></i
-                    >Public Advisory (131 KB)</a
-                  >
-                </li>
-                <li class="list-new">
-                  <a
-                    href="documents/NOTIFICATION 06.04.2020 .pdf"
-                    target="_blank"
-                    tabindex="0"
-                    ><i
-                      style="color: rgb(210, 223, 38)"
-                      class="fa fa-file-pdf-o"
-                    ></i
-                    >Notification : Avoid Rumours (172 KB )</a
-                  >
-                </li>
-                <li class="list-new">
-                  <a
-                    href="documents/23_Circular_2020.pdf"
-                    target="_blank"
-                    tabindex="0"
-                    ><i
-                      style="color: rgb(210, 223, 38)"
-                      class="fa fa-file-pdf-o"
-                    ></i
-                    >COVID 19 Stay Safe (336 KB)</a
-                  >
-                </li>
-                <li class="list-new">
-                  <a
-                    href="documents/Letters_21032020.pdf"
-                    target="_blank"
-                    tabindex="0"
-                    ><i
-                      style="color: rgb(210, 223, 38)"
-                      class="fa fa-file-pdf-o"
-                    ></i
-                    >COVID-19 : Stay Safe - Ministry of Education's Important
-                    Directives for Schools and Higher Education Institutions on
-                    Social Distancing and E-Learning (613 KB)</a
-                  >
-                </li>
-                <li class="list-new">
-                  <a
-                    href="documents/16_Circular_2020.pdf"
-                    target="_blank"
-                    tabindex="0"
-                    ><i
-                      style="color: rgb(210, 223, 38)"
-                      class="fa fa-file-pdf-o"
-                    ></i
-                    >Creating Awareness about Preventive Interventions for
-                    Reducing Transmission of Novel Coronavirus Disease (5.57
-                    MB)</a
-                  >
-                </li>
-                <li class="list-new">
-                  <a
-                    href="documents/Public Notice_affil_status_2020.pdf"
-                    target="_blank"
-                    tabindex="0"
-                    ><i
-                      style="color: rgb(210, 223, 38)"
-                      class="fa fa-file-pdf-o"
-                    ></i
-                    >Public Notice: Alerting Parents to Check the Affiliation
-                    Status of School before Admission in School (411 KB)</a
-                  >
-                </li>
-                <li class="list-new">
-                  <a
-                    href="documents/Public Advisory 09-03-2019.pdf"
-                    target="_blank"
-                    tabindex="0"
-                    ><i
-                      style="color: rgb(210, 223, 38)"
-                      class="fa fa-file-pdf-o"
-                    ></i
-                    >Public Advisory : Unauthorized use of CBSE name and logo on
-                    Social Media (385 KB)</a
-                  >
-                </li>
-                <li class="list-new">
-                  <a
-                    href="documents/notification of procedure for making request to CBSE by the sch.pdf"
-                    target="_blank"
-                    tabindex="0"
-                    ><i
-                      style="color: rgb(210, 223, 38)"
-                      class="fa fa-file-pdf-o"
-                    ></i
-                    >Procedure for Making Request to CBSE by Schools/Students
-                    (2.24 MB)</a
-                  >
-                </li>
-                <li class="list-new">
-                  <a
-                    href="documents/PUBLIC NOTICE on unscrupulous.pdf"
-                    target="_blank"
-                    tabindex="0"
-                    ><i
-                      style="color: rgb(210, 223, 38)"
-                      class="fa fa-file-pdf-o"
-                    ></i
-                    >Public Notice : Beware of Unscrupulous Callers (119 KB)</a
-                  >
-                </li>
-              </ul>
+                21/06/2023 <img src="Images/new.gif" alt="" />
+              </li>
+
+              <li class="list-new">
+                <a href="documents//Class XII_Date_Sheet_Supplementary_Exam_2023_01062023.pdf" target="_blank"
+                  tabindex="0"><i style="color: rgb(210, 223, 38)" class="fa fa-file-pdf-o"></i>Date Sheet for
+                  Supplementary Exam 2023 for Class XII (924
+                  KB)
+                </a>
+                01/06/2023 <img src="Images/new.gif" alt="" />
+              </li>
+              <li class="list-new">
+                <a href="documents//Class X_Date_Sheet_Supplementary_Exam_2023_01062023.pdf" target="_blank"
+                  tabindex="0"><i style="color: rgb(210, 223, 38)" class="fa fa-file-pdf-o"></i>Date Sheet for
+                  Supplementary Exam 2023 for Class X (1.66
+                  MB)
+                </a>
+                01/06/2023 <img src="Images/new.gif" alt="" />
+              </li>
+              <li class="list-new">
+                <a href="documents//Online_submission_List_Candidates_Supplementary_Examination_X_XII_Private_Candidate_31052023.pdf"
+                  target="_blank" tabindex="0"><i style="color: rgb(210, 223, 38)" class="fa fa-file-pdf-o"></i>Online
+                  submission of forms by Private Candidates of Classes
+                  X &amp; XII, 2023 Supplementary Examinations (3.86 MB)
+                </a>
+                |
+                <a href="https://cbseit.in/cbse/web/comptt/" target="_blank" tabindex="0">Click here to apply</a>
+                31/05/2023
+              </li>
+              <li class="list-new">
+                <a href="documents//Online_submission_List_Candidates_Supplementary_Examination_X_XII_30052023.pdf"
+                  target="_blank" tabindex="0"><i style="color: rgb(210, 223, 38)" class="fa fa-file-pdf-o"></i>Online
+                  submission of List of Candidates by Schools for
+                  Classes X &amp; XII, 2023 Supplementary Examinations (3.95
+                  MB)
+                </a>
+                |
+                <a href="https://cbseit.in/cbse/web/comptt/schlogin.aspx" target="_blank" tabindex="0">Click here to
+                  apply</a>
+                30/05/2023
+              </li>
+
+              <li class="list-new">
+                <a href="documents//Permission_Mathematics_041_Class_XI_25052023.pdf" target="_blank" tabindex="0"><i
+                    style="color: rgb(210, 223, 38)" class="fa fa-file-pdf-o"></i>Permission to offer Mathematics (041)
+                  in Class - XI to the
+                  students who offered Mathematics Basic (241) in Class - X
+                  (475 KB)
+                </a>
+                25/05/2023
+              </li>
+              <li class="list-new">
+                <a href="documents//Process_verification_Class_X_XII_Examination_2023_Manipur_23052023.pdf"
+                  target="_blank" tabindex="0"><i style="color: rgb(210, 223, 38)" class="fa fa-file-pdf-o"></i>Process
+                  for Verification, Photocopy and Revaluation of
+                  evaluated answer books for Class X and XII in the State of
+                  Manipur (449 KB)
+                </a>
+                23/05/2023
+              </li>
+
+              <li class="list-new">
+                <a href="documents//X_verification_photocopy_revaluation_12052023.pdf" target="_blank" tabindex="0"><i
+                    style="color: rgb(210, 223, 38)" class="fa fa-file-pdf-o"></i>Circulars for verification of marks,
+                  Photocopy of answer
+                  books and reevaluation for Class X - 2023 (1.34 MB)</a>
+                |
+                <a href="https://cbseit.in/cbse/web/rchk/" target="_blank" tabindex="0">Click here to apply</a>
+                12/05/2023
+              </li>
+              <li class="list-new">
+                <a href="documents//XII_verification_photocopy_revaluation_12052023.pdf" target="_blank" tabindex="0"><i
+                    style="color: rgb(210, 223, 38)" class="fa fa-file-pdf-o"></i>Circulars for verification of marks,
+                  Photocopy of answer
+                  books and reevaluation for Class XII - 2023 (1.33 MB)</a>
+                |
+                <a href="https://cbseit.in/cbse/web/rchk/" target="_blank" tabindex="0">Click here to apply</a>
+                12/05/2023
+              </li>
+
+              <li class="list-new">
+                <a href="documents//full_final_settlement_payment_centre_charges_03052023.pdf" target="_blank"
+                  tabindex="0"><i style="color: rgb(210, 223, 38)" class="fa fa-file-pdf-o"></i>Full &amp; Final
+                  Settlement of Payment for Centre Charges
+                  for Board's Examination 2022-2023 through integrated Payment
+                  System (IPS) (440 KB)</a>
+                03/05/2023
+              </li>
+              <li class="list-new">
+                <a href="documents//20230502_CNS_HE_payment_IPS_Term 2_2022_03052023.pdf" target="_blank"
+                  tabindex="0"><i style="color: rgb(210, 223, 38)" class="fa fa-file-pdf-o"></i>Payment to CNS / HE /
+                  AHE(C) / AHE(E), Evaluators,
+                  Coordinators and all other functionaries involved in Term II
+                  Evaluation work for Examination, 2021-22 (342 KB)</a>
+                03/05/2023
+              </li>
+              <li class="list-new">
+                <a href="documents//Public_Information_23032023.pdf" target="_blank" tabindex="0"><i
+                    style="color: rgb(210, 223, 38)" class="fa fa-file-pdf-o"></i>Public Information : Impact of Public
+                  Alerts Issued by CBSE
+                  (1.15 MB)</a>
+                23/03/2023
+              </li>
+              <li class="list-new">
+                <a href="documents//Public_Alert_27022023.pdf" target="_blank" tabindex="0"><i
+                    style="color: rgb(210, 223, 38)" class="fa fa-file-pdf-o"></i>Public Alert : Against rumours and
+                  fake information about
+                  ongoing CBSE Exams (250 KB)</a>
+                27/02/2023
+              </li>
+              <li class="list-new">
+                <a href="documents//Most_Urgent_Public_Notice_21022023_Updated.pdf" target="_blank" tabindex="0"><i
+                    style="color: rgb(210, 223, 38)" class="fa fa-file-pdf-o"></i>Most Urgent Public Notice (807 KB)</a>
+                22/02/2023
+              </li>
+              <li class="list-new">
+                <a href="documents//Press_Release_Digital_India_Award_Gold_2022_11012023.pdf" target="_blank"
+                  tabindex="0"><i style="color: rgb(210, 223, 38)" class="fa fa-file-pdf-o"></i>Press Release : CBSE
+                  Bags the Digital India Award 2022
+                  (Gold) (402 KB)</a>
+                |
+                <a href="/Images/DIA_2022_Video.mp4" target="_blank" tabindex="0">Click here to video</a>
+              </li>
+              <li class="list-new">
+                <a href="https://ciet.nic.in/upload/cyber%20safety%20and%20security.pdf" target="_blank" tabindex="0"><i
+                    style="color: rgb(210, 223, 38)" class="fa fa-file-pdf-o"></i>Cyber Safety and Security Guidelines
+                  for School (9.44 MB) </a>10/05/2022
+              </li>
+              <li class="list-new">
+                <a href="documents//Press_Release_Use_of_Advanced_data.pdf" target="_blank" tabindex="0"><i
+                    style="color: rgb(210, 223, 38)" class="fa fa-file-pdf-o"></i>Press Release - Use of Advanced data
+                  analytics to ensure
+                  fairness in CBSE administered examinations (138 KB)</a>
+              </li>
+              <li class="list-new">
+                <a href="documents//Letter_to_Schools_BlockChain_final.pdf" target="_blank" tabindex="0"><i
+                    style="color: rgb(210, 223, 38)" class="fa fa-file-pdf-o"></i>Implementation of BlockChain
+                  Technology for Board Exam
+                  Results Documents (232 KB)</a>
+              </li>
+              <li class="list-new">
+                <a href="documents//Press_Release_Integrated_Payment_System_IPS.pdf" target="_blank" tabindex="0"><i
+                    style="color: rgb(210, 223, 38)" class="fa fa-file-pdf-o"></i>Press Release - CBSE introduces
+                  Integrated Payment
+                  System(IPS) (158 KB)</a>
+              </li>
+              <li class="list-new">
+                <a href="documents//Student_Safety_2022.pdf" target="_blank" tabindex="0"><i
+                    style="color: rgb(210, 223, 38)" class="fa fa-file-pdf-o"></i>Regarding - Safety of Children in
+                  Schools (476 KB) </a>05/01/2022
+              </li>
+              <li class="list-new">
+                <a href="documents//Public_Advisory_03012022.pdf" target="_blank" tabindex="0"><i
+                    style="color: rgb(210, 223, 38)" class="fa fa-file-pdf-o"></i>Public Advisory - Misleading
+                  information on few online news
+                  Platforms (248 KB) </a>03/01/2022
+              </li>
+              <li class="list-new">
+                <a href="documents/Alert_against_Misleading_Frivolous_information.pdf" target="_blank" tabindex="0"><i
+                    style="color: rgb(210, 223, 38)" class="fa fa-file-pdf-o"></i>Alert against Misleading
+                  News/Frivolous Information
+                  regarding Affiliation of the Board- Reg (899 KB)</a>
+              </li>
+              <li class="list-new">
+                <a href="documents//public notice10.12.20.pdf" target="_blank" tabindex="0"><i
+                    style="color: rgb(210, 223, 38)" class="fa fa-file-pdf-o"></i>Public Notice : Alert Against
+                  Frivolous Information (367
+                  KB)</a>
+              </li>
+              <a href="documents//public notice10.12.20.pdf" target="_blank" tabindex="0">
+              </a>
+              <li class="list-new">
+                <a href="documents//public notice10.12.20.pdf" target="_blank" tabindex="0"></a><a
+                  href="documents/Public Advisory.pdf" target="_blank" tabindex="0"><i style="color: rgb(210, 223, 38)"
+                    class="fa fa-file-pdf-o"></i>Public Advisory (131 KB)</a>
+              </li>
+              <li class="list-new">
+                <a href="documents/NOTIFICATION 06.04.2020 .pdf" target="_blank" tabindex="0"><i
+                    style="color: rgb(210, 223, 38)" class="fa fa-file-pdf-o"></i>Notification : Avoid Rumours (172 KB
+                  )</a>
+              </li>
+              <li class="list-new">
+                <a href="documents/23_Circular_2020.pdf" target="_blank" tabindex="0"><i
+                    style="color: rgb(210, 223, 38)" class="fa fa-file-pdf-o"></i>COVID 19 Stay Safe (336 KB)</a>
+              </li>
+              <li class="list-new">
+                <a href="documents/Letters_21032020.pdf" target="_blank" tabindex="0"><i
+                    style="color: rgb(210, 223, 38)" class="fa fa-file-pdf-o"></i>COVID-19 : Stay Safe - Ministry of
+                  Education's Important
+                  Directives for Schools and Higher Education Institutions on
+                  Social Distancing and E-Learning (613 KB)</a>
+              </li>
+              <li class="list-new">
+                <a href="documents/16_Circular_2020.pdf" target="_blank" tabindex="0"><i
+                    style="color: rgb(210, 223, 38)" class="fa fa-file-pdf-o"></i>Creating Awareness about Preventive
+                  Interventions for
+                  Reducing Transmission of Novel Coronavirus Disease (5.57
+                  MB)</a>
+              </li>
+              <li class="list-new">
+                <a href="documents/Public Notice_affil_status_2020.pdf" target="_blank" tabindex="0"><i
+                    style="color: rgb(210, 223, 38)" class="fa fa-file-pdf-o"></i>Public Notice: Alerting Parents to
+                  Check the Affiliation
+                  Status of School before Admission in School (411 KB)</a>
+              </li>
+              <li class="list-new">
+                <a href="documents/Public Advisory 09-03-2019.pdf" target="_blank" tabindex="0"><i
+                    style="color: rgb(210, 223, 38)" class="fa fa-file-pdf-o"></i>Public Advisory : Unauthorized use of
+                  CBSE name and logo on
+                  Social Media (385 KB)</a>
+              </li>
+              <li class="list-new">
+                <a href="documents/notification of procedure for making request to CBSE by the sch.pdf" target="_blank"
+                  tabindex="0"><i style="color: rgb(210, 223, 38)" class="fa fa-file-pdf-o"></i>Procedure for Making
+                  Request to CBSE by Schools/Students
+                  (2.24 MB)</a>
+              </li>
+              <li class="list-new">
+                <a href="documents/PUBLIC NOTICE on unscrupulous.pdf" target="_blank" tabindex="0"><i
+                    style="color: rgb(210, 223, 38)" class="fa fa-file-pdf-o"></i>Public Notice : Beware of Unscrupulous
+                  Callers (119 KB)</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <h2 id="title">Our Latest Courses</h2>
+  <section class="container-2">
+    <h2 class="section-title"></h2>
+
+    <div class="cousres_centre" style="justify-content: center; text-align: center;">
+      <div class="courses">
+        <div class="course">
+          <div class="course-banner">
+            <img src="Images/course01.jpg" alt="" />
+          </div>
+          <div class="course-detail">
+            <h3 class="course-title">Basics Of JAVA.</h3>
+            <p class="course-author">Lorem, ipsum.</p>
+            <div class="course-info">
+              <div>
+                <i class="fas fa-star filled"></i>
+                <i class="fas fa-star filled"></i>
+                <i class="fas fa-star filled"></i>
+                <i class="fas fa-star filled"></i>
+                <i class="fas fa-star empty"></i>
+                <span>4.5</span>
+              </div>
+
+              <div class="course-duration">
+                <i class="far fa-clock"></i>
+                01:30hr
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="course">
+          <div class="course-banner">
+            <img src="Images/course02.jpg" alt="" />
+          </div>
+          <div class="course-detail">
+            <h3 class="course-title">Indian revolution</h3>
+            <p class="course-author">Reed Krakoff.</p>
+            <div class="course-info">
+              <div>
+                <i class="fas fa-star filled"></i>
+                <i class="fas fa-star filled"></i>
+                <i class="fas fa-star filled"></i>
+                <i class="fas fa-star filled"></i>
+                <i class="fas fa-star empty"></i>
+                <span>4.5</span>
+              </div>
+
+              <div class="course-duration">
+                <i class="far fa-clock"></i>
+                01:30hr
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="course">
+          <div class="course-banner">
+            <img src="Images/course03.jpg" alt="" />
+          </div>
+          <div class="course-detail">
+            <h3 class="course-title">Can matter change its state.</h3>
+            <p class="course-author">Reed Krakoff.</p>
+            <div class="course-info">
+              <div>
+                <i class="fas fa-star filled"></i>
+                <i class="fas fa-star filled"></i>
+                <i class="fas fa-star filled"></i>
+                <i class="fas fa-star filled"></i>
+                <i class="fas fa-star empty"></i>
+                <span>4.5</span>
+              </div>
+
+              <div class="course-duration">
+                <i class="far fa-clock"></i>
+                01:30hr
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="course">
+          <div class="course-banner">
+            <img src="Images/course04.jpg" alt="" />
+          </div>
+          <div class="course-detail">
+            <h3 class="course-title">Let's Start with polynomials</h3>
+            <p class="course-author">Reed Krakoff.</p>
+            <div class="course-info">
+              <div>
+                <i class="fas fa-star filled"></i>
+                <i class="fas fa-star filled"></i>
+                <i class="fas fa-star filled"></i>
+                <i class="fas fa-star filled"></i>
+                <i class="fas fa-star empty"></i>
+                <span>4.5</span>
+              </div>
+
+              <div class="course-duration">
+                <i class="far fa-clock"></i>
+                01:30hr
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="course">
+          <div class="course-banner">
+            <img src="Images/course05.jpg" alt="" />
+          </div>
+          <div class="course-detail">
+            <h3 class="course-title">figure of speech</h3>
+            <p class="course-author">Reed Krakoff.</p>
+            <div class="course-info">
+              <div>
+                <i class="fas fa-star filled"></i>
+                <i class="fas fa-star filled"></i>
+                <i class="fas fa-star filled"></i>
+                <i class="fas fa-star filled"></i>
+                <i class="fas fa-star empty"></i>
+                <span>4.5</span>
+              </div>
+
+              <div class="course-duration">
+                <i class="far fa-clock"></i>
+                01:30hr
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="course">
+          <div class="course-banner">
+            <img src="Images/course06.jpg" alt="" />
+          </div>
+          <div class="course-detail">
+            <h3 class="course-title">Let's start with english</h3>
+            <p class="course-author">Reed Krakoff.</p>
+            <div class="course-info">
+              <div>
+                <i class="fas fa-star filled"></i>
+                <i class="fas fa-star filled"></i>
+                <i class="fas fa-star filled"></i>
+                <i class="fas fa-star filled"></i>
+                <i class="fas fa-star empty"></i>
+                <span>4.5</span>
+              </div>
+
+              <div class="course-duration">
+                <i class="far fa-clock"></i>
+                01:30hr
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="course">
+          <div class="course-banner">
+            <img src="Images/course07.jpg" alt="" />
+          </div>
+          <div class="course-detail">
+            <h3 class="course-title">Information of world ry</h3>
+            <p class="course-author">Walter Scott</p>
+            <div class="course-info">
+              <div>
+                <i class="fas fa-star filled"></i>
+                <i class="fas fa-star filled"></i>
+                <i class="fas fa-star filled"></i>
+                <i class="fas fa-star filled"></i>
+                <i class="fas fa-star empty"></i>
+                <span>4.3</span>
+              </div>
+
+              <div class="course-duration">
+                <i class="far fa-clock"></i>
+                01:20hr
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="course">
+          <div class="course-banner">
+            <img src="Images/course08.jpg" alt="" />
+          </div>
+          <div class="course-detail">
+            <h3 class="course-title">Motion</h3>
+            <p class="course-author">Reed Krakoff.</p>
+            <div class="course-info">
+              <div>
+                <i class="fas fa-star filled"></i>
+                <i class="fas fa-star filled"></i>
+                <i class="fas fa-star filled"></i>
+                <i class="fas fa-star filled"></i>
+                <i class="fas fa-star empty"></i>
+                <span>4.5</span>
+              </div>
+
+              <div class="course-duration">
+                <i class="far fa-clock"></i>
+                01:30hr
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  
-  <h2 id="title">Our Latest Courses</h2>
-    <section class="container-2">
-      <h2 class="section-title"></h2>
 
-      <div
-        class="cousres_centre"
-
-        style="justify-content: center; text-align: center;"
-
-      >
-        <div class="courses">
-          <div class="course">
-            <div class="course-banner">
-              <img src="Images/course01.jpg" alt="" />
-            </div>
-            <div class="course-detail">
-              <h3 class="course-title">Basics Of JAVA.</h3>
-              <p class="course-author">Lorem, ipsum.</p>
-              <div class="course-info">
-                <div>
-                  <i class="fas fa-star filled"></i>
-                  <i class="fas fa-star filled"></i>
-                  <i class="fas fa-star filled"></i>
-                  <i class="fas fa-star filled"></i>
-                  <i class="fas fa-star empty"></i>
-                  <span>4.5</span>
-                </div>
-
-                <div class="course-duration">
-                  <i class="far fa-clock"></i>
-                  01:30hr
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="course">
-            <div class="course-banner">
-              <img src="Images/course02.jpg" alt="" />
-            </div>
-            <div class="course-detail">
-              <h3 class="course-title">Indian revolution</h3>
-              <p class="course-author">Reed Krakoff.</p>
-              <div class="course-info">
-                <div>
-                  <i class="fas fa-star filled"></i>
-                  <i class="fas fa-star filled"></i>
-                  <i class="fas fa-star filled"></i>
-                  <i class="fas fa-star filled"></i>
-                  <i class="fas fa-star empty"></i>
-                  <span>4.5</span>
-                </div>
-
-                <div class="course-duration">
-                  <i class="far fa-clock"></i>
-                  01:30hr
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="course">
-            <div class="course-banner">
-              <img src="Images/course03.jpg" alt="" />
-            </div>
-            <div class="course-detail">
-              <h3 class="course-title">Can matter change its state.</h3>
-              <p class="course-author">Reed Krakoff.</p>
-              <div class="course-info">
-                <div>
-                  <i class="fas fa-star filled"></i>
-                  <i class="fas fa-star filled"></i>
-                  <i class="fas fa-star filled"></i>
-                  <i class="fas fa-star filled"></i>
-                  <i class="fas fa-star empty"></i>
-                  <span>4.5</span>
-                </div>
-
-                <div class="course-duration">
-                  <i class="far fa-clock"></i>
-                  01:30hr
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="course">
-            <div class="course-banner">
-              <img src="Images/course04.jpg" alt="" />
-            </div>
-            <div class="course-detail">
-              <h3 class="course-title">Let's Start with polynomials</h3>
-              <p class="course-author">Reed Krakoff.</p>
-              <div class="course-info">
-                <div>
-                  <i class="fas fa-star filled"></i>
-                  <i class="fas fa-star filled"></i>
-                  <i class="fas fa-star filled"></i>
-                  <i class="fas fa-star filled"></i>
-                  <i class="fas fa-star empty"></i>
-                  <span>4.5</span>
-                </div>
-
-                <div class="course-duration">
-                  <i class="far fa-clock"></i>
-                  01:30hr
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="course">
-            <div class="course-banner">
-              <img src="Images/course05.jpg" alt="" />
-            </div>
-            <div class="course-detail">
-              <h3 class="course-title">figure of speech</h3>
-              <p class="course-author">Reed Krakoff.</p>
-              <div class="course-info">
-                <div>
-                  <i class="fas fa-star filled"></i>
-                  <i class="fas fa-star filled"></i>
-                  <i class="fas fa-star filled"></i>
-                  <i class="fas fa-star filled"></i>
-                  <i class="fas fa-star empty"></i>
-                  <span>4.5</span>
-                </div>
-
-                <div class="course-duration">
-                  <i class="far fa-clock"></i>
-                  01:30hr
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="course">
-            <div class="course-banner">
-              <img src="Images/course06.jpg" alt="" />
-            </div>
-            <div class="course-detail">
-              <h3 class="course-title">Let's start with english</h3>
-              <p class="course-author">Reed Krakoff.</p>
-              <div class="course-info">
-                <div>
-                  <i class="fas fa-star filled"></i>
-                  <i class="fas fa-star filled"></i>
-                  <i class="fas fa-star filled"></i>
-                  <i class="fas fa-star filled"></i>
-                  <i class="fas fa-star empty"></i>
-                  <span>4.5</span>
-                </div>
-
-                <div class="course-duration">
-                  <i class="far fa-clock"></i>
-                  01:30hr
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="course">
-            <div class="course-banner">
-              <img src="Images/course07.jpg" alt="" />
-            </div>
-            <div class="course-detail">
-              <h3 class="course-title">Information of world ry</h3>
-              <p class="course-author">Walter Scott</p>
-              <div class="course-info">
-                <div>
-                  <i class="fas fa-star filled"></i>
-                  <i class="fas fa-star filled"></i>
-                  <i class="fas fa-star filled"></i>
-                  <i class="fas fa-star filled"></i>
-                  <i class="fas fa-star empty"></i>
-                  <span>4.3</span>
-                </div>
-
-                <div class="course-duration">
-                  <i class="far fa-clock"></i>
-                  01:20hr
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="course">
-            <div class="course-banner">
-              <img src="Images/course08.jpg" alt="" />
-            </div>
-            <div class="course-detail">
-              <h3 class="course-title">Motion</h3>
-              <p class="course-author">Reed Krakoff.</p>
-              <div class="course-info">
-                <div>
-                  <i class="fas fa-star filled"></i>
-                  <i class="fas fa-star filled"></i>
-                  <i class="fas fa-star filled"></i>
-                  <i class="fas fa-star filled"></i>
-                  <i class="fas fa-star empty"></i>
-                  <span>4.5</span>
-                </div>
-
-                <div class="course-duration">
-                  <i class="far fa-clock"></i>
-                  01:30hr
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </section> 
+  </section>
   <svg style="background-color:#f6f690;" width="100%" height="70" viewBox="0 0 100 100" preserveAspectRatio="none">
 
-      <path id="wavepath" d="M0,0  L110,0C35,150 35,0 0,100z" fill="#282A35"></path>
-    </svg>
+    <path id="wavepath" d="M0,0  L110,0C35,150 35,0 0,100z" fill="#282A35"></path>
+  </svg>
 
-    <!-- Review Section  -->
-    <p style="color: black; font-size: 40px; font-weight: 500px; text-align: center;">Testimonial: What Students Says</p>
-    <div class="wrapper">
-      <!-- <p style="color: black; padding-bottom: 80px; font-size: 40px; font-weight: 500px;">Testimonial: What Students Says</p> -->
-      <i id="left" class="fa-solid fa-angle-left"></i>
-      <ul class="carousel">
-        <li class="card">
-          <div class="img"><img src="Images/img-1.jpg" alt="img" draggable="false"></div>
-          <h2>Blanche Pearson</h2>
+  <!-- Review Section  -->
+  <p style="color: black; font-size: 40px; font-weight: 500px; text-align: center;">Testimonial: What Students Says</p>
+  <div class="wrapper">
+    <!-- <p style="color: black; padding-bottom: 80px; font-size: 40px; font-weight: 500px;">Testimonial: What Students Says</p> -->
+    <i id="left" class="fa-solid fa-angle-left"></i>
+    <ul class="carousel">
+      <li class="card">
+        <div class="img"><img src="Images/img-1.jpg" alt="img" draggable="false"></div>
+        <h2>Blanche Pearson</h2>
 
-          <span>Sales Manager</span>
-          <span></span><p></p>
+        <span>Sales Manager</span>
+        <span></span>
+        <p></p>
 
-          <p style="padding: 12px;font-weight: 60px;font-size: 16px; color: grey;"><br style="font-size: 30px;">"</br>"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error, corporis? Asperiores obcaecati, ad voluptas pariatur perspiciatis molestias incidunt esse officia.</p>
-          
-        
-        </li>
-        <li class="card">
-          <div class="img"><img src="Images/img-2.jpg" alt="img" draggable="false"></div>
-          <h2>Joenas Brauers</h2>
-          <span>Web Developer</span>
-          <p style="padding: 12px;font-weight: 60px;font-size: 16px; color: grey;"><br></br>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error, corporis? Asperiores obcaecati, ad voluptas pariatur perspiciatis molestias incidunt esse officia.</p>
-        </li>
-        <li class="card">
-          <div class="img"><img src="Images/img-3.jpg" alt="img" draggable="false"></div>
-          <h2>Lariach French</h2>
-          <span>Online Teacher</span>
-          <p style="padding: 12px;font-weight: 60px;font-size: 16px; color: grey;"><br></br>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error, corporis? Asperiores obcaecati, ad voluptas pariatur perspiciatis molestias incidunt esse officia.</p>
-        </li>
-        <li class="card">
-          <div class="img"><img src=Images/img-4.jpg" alt="img" draggable="false"></div>
-          <h2>James Khosravi</h2>
-          <span>Freelancer</span>
-          <p style="padding: 12px;font-weight: 60px;font-size: 16px; color: grey;"><br></br>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error, corporis? Asperiores obcaecati, ad voluptas pariatur perspiciatis molestias incidunt esse officia.</p>
-
-        </li>
-        <li class="card">
-          <div class="img"><img src="Images/img-5.jpg" alt="img" draggable="false"></div>
-          <h2>Kristina Zasiadko</h2>
-          <span>Bank Manager</span>
-          <p style="padding: 12px;font-weight: 60px;font-size: 16px; color: grey;"><br></br>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error, corporis? Asperiores obcaecati, ad voluptas pariatur perspiciatis molestias incidunt esse officia.</p>
-        </li>
-        <li class="card">
-          <div class="img"><img src="Images/img-6.jpg" alt="img" draggable="false"></div>
-          <h2>Donald Horton</h2>
-          <span>App Designer</span>
-          <p style="padding: 12px;font-weight: 60px;font-size: 16px; color: grey;"><br></br>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error, corporis? Asperiores obcaecati, ad voluptas pariatur perspiciatis molestias incidunt esse officia.</p>
-        </li>
-      </ul>
-      <i id="right" class="fa-solid fa-angle-right"></i>
-    </div>
+        <p style="padding: 12px;font-weight: 60px;font-size: 16px; color: grey;"><br
+            style="font-size: 30px;">"</br>"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error, corporis?
+          Asperiores obcaecati, ad voluptas pariatur perspiciatis molestias incidunt esse officia.</p>
 
 
-    <!--  courses page -->
+      </li>
+      <li class="card">
+        <div class="img"><img src="Images/img-2.jpg" alt="img" draggable="false"></div>
+        <h2>Joenas Brauers</h2>
+        <span>Web Developer</span>
+        <p style="padding: 12px;font-weight: 60px;font-size: 16px; color: grey;"><br></br>Lorem ipsum dolor sit amet
+          consectetur, adipisicing elit. Error, corporis? Asperiores obcaecati, ad voluptas pariatur perspiciatis
+          molestias incidunt esse officia.</p>
+      </li>
+      <li class="card">
+        <div class="img"><img src="Images/img-3.jpg" alt="img" draggable="false"></div>
+        <h2>Lariach French</h2>
+        <span>Online Teacher</span>
+        <p style="padding: 12px;font-weight: 60px;font-size: 16px; color: grey;"><br></br>Lorem ipsum dolor sit amet
+          consectetur, adipisicing elit. Error, corporis? Asperiores obcaecati, ad voluptas pariatur perspiciatis
+          molestias incidunt esse officia.</p>
+      </li>
+      <li class="card">
+        <div class="img"><img src=Images/img-4.jpg" alt="img" draggable="false"></div>
+        <h2>James Khosravi</h2>
+        <span>Freelancer</span>
+        <p style="padding: 12px;font-weight: 60px;font-size: 16px; color: grey;"><br></br>Lorem ipsum dolor sit amet
+          consectetur, adipisicing elit. Error, corporis? Asperiores obcaecati, ad voluptas pariatur perspiciatis
+          molestias incidunt esse officia.</p>
 
-    <div class="section">
-      <div class="top-courses">
-        <div class="top10">
-          <h5 style="font-family: 'Source Sans Pro', sans-serif">
-            Top-Courses
-          </h5>
-          <a href="" class="top-courses_content">web development</a><br />
-          <a href="" class="top-courses_content">python programming</a><br />
-          <a href="" class="top-courses_content">java</a><br />
-        </div>
-      </div>
-      <div class="top-courses">
-        <div class="top10">
-          <h5 style="font-family: 'Source Sans Pro', sans-serif">
-            Quizes/Exercises
-          </h5>
-          <a href="" class="top-courses_content">HTML Reference</a><br />
-          <a href="" class="top-courses_content">HTML Reference</a><br />
-          <a href="" class="top-courses_content">HTML Reference</a><br />
-        </div>
-      </div>
-      <div class="top-courses">
-        <div class="top10">
-          <h5 style="font-family: 'Source Sans Pro', sans-serif">
-            NCERT Books
-          </h5>
-          <a href="" class="top-courses_content">HTML Reference</a><br />
-          <a href="" class="top-courses_content">HTML Reference</a><br />
-          <a href="" class="top-courses_content">HTML Reference</a><br />
-        </div>
-      </div>
-      <div class="top-courses">
-        <div class="top10">
-          <h5 style="font-family: 'Source Sans Pro', sans-serif">
-            Notes/Video
-          </h5>
-          <a href="" class="top-courses_content">HTML Reference</a><br />
-          <a href="" class="top-courses_content">HTML Reference</a><br />
-          <a href="" class="top-courses_content">HTML Reference</a><br />
-        </div>
+      </li>
+      <li class="card">
+        <div class="img"><img src="Images/img-5.jpg" alt="img" draggable="false"></div>
+        <h2>Kristina Zasiadko</h2>
+        <span>Bank Manager</span>
+        <p style="padding: 12px;font-weight: 60px;font-size: 16px; color: grey;"><br></br>Lorem ipsum dolor sit amet
+          consectetur, adipisicing elit. Error, corporis? Asperiores obcaecati, ad voluptas pariatur perspiciatis
+          molestias incidunt esse officia.</p>
+      </li>
+      <li class="card">
+        <div class="img"><img src="Images/img-6.jpg" alt="img" draggable="false"></div>
+        <h2>Donald Horton</h2>
+        <span>App Designer</span>
+        <p style="padding: 12px;font-weight: 60px;font-size: 16px; color: grey;"><br></br>Lorem ipsum dolor sit amet
+          consectetur, adipisicing elit. Error, corporis? Asperiores obcaecati, ad voluptas pariatur perspiciatis
+          molestias incidunt esse officia.</p>
+      </li>
+    </ul>
+    <i id="right" class="fa-solid fa-angle-right"></i>
+  </div>
+
+
+  <!--  courses page -->
+
+  <div class="section">
+    <div class="top-courses">
+      <div class="top10">
+        <h5 style="font-family: 'Source Sans Pro', sans-serif">
+          Top-Courses
+        </h5>
+        <a href="" class="top-courses_content">web development</a><br />
+        <a href="" class="top-courses_content">python programming</a><br />
+        <a href="" class="top-courses_content">java</a><br />
       </div>
     </div>
+    <div class="top-courses">
+      <div class="top10">
+        <h5 style="font-family: 'Source Sans Pro', sans-serif">
+          Quizes/Exercises
+        </h5>
+        <a href="" class="top-courses_content">HTML Reference</a><br />
+        <a href="" class="top-courses_content">HTML Reference</a><br />
+        <a href="" class="top-courses_content">HTML Reference</a><br />
+      </div>
+    </div>
+    <div class="top-courses">
+      <div class="top10">
+        <h5 style="font-family: 'Source Sans Pro', sans-serif">
+          NCERT Books
+        </h5>
+        <a href="" class="top-courses_content">HTML Reference</a><br />
+        <a href="" class="top-courses_content">HTML Reference</a><br />
+        <a href="" class="top-courses_content">HTML Reference</a><br />
+      </div>
+    </div>
+    <div class="top-courses">
+      <div class="top10">
+        <h5 style="font-family: 'Source Sans Pro', sans-serif">
+          Notes/Video
+        </h5>
+        <a href="" class="top-courses_content">HTML Reference</a><br />
+        <a href="" class="top-courses_content">HTML Reference</a><br />
+        <a href="" class="top-courses_content">HTML Reference</a><br />
+      </div>
+    </div>
+  </div>
 
-    <!-- Recent courses page  -->
-    
+  <!-- Recent courses page  -->
 
-    <!-- Footer  -->
-    <footer class="footer">
-      <div class="container-0">
-        <div class="row-0">
-          <div class="footer-col" style="width: 45%">
-            <img
-              src="Images/brain bytes logo.jpg"
-              alt=""
-              height="110px"
-              width="110px"
-              style="border-radius: 60px"
-            />
 
-            <ul style="padding-top: 30px">
-              <!-- <li><img src="" alt="">about us</li> -->
-              <li>
-                <img src="Images/location.png" alt="" /> &nbsp;Lucknow,226021
-              </li>
-              <li>
-                <img src="Images/phone.png" alt="" /> &nbsp;+91-1234-567-890
-              </li>
-              <li>
-                <img src="Images/mail.png" alt="" />&nbsp;
-                &nbsp;edu.brainbytes@gmail.com
-              </li>
-            </ul>
-          </div>
-          <div class="footer-col">
-            <h4>COMPANY</h4>
-            <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About Us</a></li>
-              <li><a href="#">Blogs</a></li>
-              <li><a href="#">Careers</a></li>
-              <li><a href="#">Contact</a></li>
-            </ul>
-          </div>
-          <div class="footer-col">
-            <h4>Help and Support</h4>
-            <ul>
-              <li><a href="#">User Guidelines</a></li>
-              <li><a href="#">Feedback</a></li>
-              <li><a href="#">FAQ's</a></li>
-              <li><a href="#"> Terms and conditions</a></li>
-            </ul>
-          </div>
-          <div class="footer-col">
-            <h4>follow us</h4>
-            <div class="social-links">
-              <a href=""><i class="fab fa-facebook-f"></i></a>
-              <a href="#"><i class="fab fa-twitter"></i></a>
-              <a href="#"><i class="fab fa-instagram"></i></a>
-              <a href="#"><i class="fab fa-linkedin-in"></i></a>
-            </div>
+  <!-- Footer  -->
+  <footer class="footer">
+    <div class="container-0">
+      <div class="row-0">
+        <div class="footer-col" style="width: 45%">
+          <img src="Images/brain bytes logo.jpg" alt="" height="110px" width="110px" style="border-radius: 60px" />
+
+          <ul style="padding-top: 30px">
+            <!-- <li><img src="" alt="">about us</li> -->
+            <li>
+              <img src="Images/location.png" alt="" /> &nbsp;Lucknow,226021
+            </li>
+            <li>
+              <img src="Images/phone.png" alt="" /> &nbsp;+91-1234-567-890
+            </li>
+            <li>
+              <img src="Images/mail.png" alt="" />&nbsp;
+              &nbsp;edu.brainbytes@gmail.com
+            </li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>COMPANY</h4>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Blogs</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Help and Support</h4>
+          <ul>
+            <li><a href="#">User Guidelines</a></li>
+            <li><a href="#">Feedback</a></li>
+            <li><a href="#">FAQ's</a></li>
+            <li><a href="#"> Terms and conditions</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>follow us</h4>
+          <div class="social-links">
+            <a href=""><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
           </div>
         </div>
       </div>
-    </footer>
-    <!-- Script for icons  -->
-    <script src="script.js"></script>
-    <!-- <script src="review.js"></script> -->
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
-    ></script>
-    <!-- Testimonial review page  -->
-   <script src="review_new.js"></script>
-  </body>
+    </div>
+  </footer>
+  <!-- Script for icons  -->
+  <script src="script.js"></script>
+  <!-- <script src="review.js"></script> -->
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <!-- Testimonial review page  -->
+  <script src="review_new.js"></script>
+</body>
+
 </html>
